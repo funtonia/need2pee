@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FB32B4E1CC62FD9007EC952 /* stuttgartStadtmitte.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4FB32B4D1CC62FD9007EC952 /* stuttgartStadtmitte.gpx */; };
+		57C160DC1CB690DC00F542AD /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C160DB1CB690DC00F542AD /* PopoverViewController.swift */; };
+		FC3015A31CB3CBFB00AB4F67 /* toilets.json in Resources */ = {isa = PBXBuildFile; fileRef = FC3015A21CB3CBFB00AB4F67 /* toilets.json */; };
+		FC729C411CD0B0B1000E7E0A /* CoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC729C401CD0B0B1000E7E0A /* CoreDataTests.swift */; };
+		FC7EE2091CA15FB3006CFF74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7EE2081CA15FB3006CFF74 /* AppDelegate.swift */; };
+		FC7EE20B1CA15FB3006CFF74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7EE20A1CA15FB3006CFF74 /* ViewController.swift */; };
+		FC7EE20E1CA15FB3006CFF74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7EE20C1CA15FB3006CFF74 /* Main.storyboard */; };
+		FC7EE2111CA15FB3006CFF74 /* need2pee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC7EE20F1CA15FB3006CFF74 /* need2pee.xcdatamodeld */; };
+		FC7EE2131CA15FB3006CFF74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7EE2121CA15FB3006CFF74 /* Assets.xcassets */; };
+		FC7EE2161CA15FB3006CFF74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7EE2141CA15FB3006CFF74 /* LaunchScreen.storyboard */; };
+		FC7EE22C1CA15FB3006CFF74 /* need2peeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7EE22B1CA15FB3006CFF74 /* need2peeUITests.swift */; };
+		FCCB060D1CD33B64008BAEF3 /* ComputeDistancesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCB060C1CD33B64008BAEF3 /* ComputeDistancesTests.swift */; };
+		FCCB060F1CD3482D008BAEF3 /* KeysSortedByValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCB060E1CD3482D008BAEF3 /* KeysSortedByValueTests.swift */; };
+		FCCB06111CD34C3E008BAEF3 /* UniquenessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCB06101CD34C3E008BAEF3 /* UniquenessTests.swift */; };
+		FCF3CD9A1CAA96F300C8783E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF3CD991CAA96F300C8783E /* TableViewController.swift */; };
+		FCF3CD9D1CAA987E00C8783E /* Toilet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF3CD9B1CAA987E00C8783E /* Toilet+CoreDataProperties.swift */; };
+		FCF3CD9E1CAA987E00C8783E /* Toilet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF3CD9C1CAA987E00C8783E /* Toilet.swift */; };
+		FCF4E7461CBFB331001DA93E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF4E7451CBFB331001DA93E /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC7EE21D1CA15FB3006CFF74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7EE1FD1CA15FB3006CFF74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC7EE2041CA15FB3006CFF74;
+			remoteInfo = need2pee;
+		};
+		FC7EE2281CA15FB3006CFF74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7EE1FD1CA15FB3006CFF74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC7EE2041CA15FB3006CFF74;
+			remoteInfo = need2pee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FB32B4D1CC62FD9007EC952 /* stuttgartStadtmitte.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = stuttgartStadtmitte.gpx; sourceTree = "<group>"; };
+		57C160DB1CB690DC00F542AD /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		FC3015A21CB3CBFB00AB4F67 /* toilets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = toilets.json; sourceTree = "<group>"; };
+		FC729C401CD0B0B1000E7E0A /* CoreDataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTests.swift; sourceTree = "<group>"; };
+		FC7EE2051CA15FB3006CFF74 /* need2pee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = need2pee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7EE2081CA15FB3006CFF74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC7EE20A1CA15FB3006CFF74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC7EE20D1CA15FB3006CFF74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC7EE2101CA15FB3006CFF74 /* need2pee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = need2pee.xcdatamodel; sourceTree = "<group>"; };
+		FC7EE2121CA15FB3006CFF74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC7EE2151CA15FB3006CFF74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC7EE2171CA15FB3006CFF74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7EE21C1CA15FB3006CFF74 /* need2peeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = need2peeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7EE2221CA15FB3006CFF74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7EE2271CA15FB3006CFF74 /* need2peeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = need2peeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7EE22B1CA15FB3006CFF74 /* need2peeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = need2peeUITests.swift; sourceTree = "<group>"; };
+		FC7EE22D1CA15FB3006CFF74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCB060C1CD33B64008BAEF3 /* ComputeDistancesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputeDistancesTests.swift; sourceTree = "<group>"; };
+		FCCB060E1CD3482D008BAEF3 /* KeysSortedByValueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeysSortedByValueTests.swift; sourceTree = "<group>"; };
+		FCCB06101CD34C3E008BAEF3 /* UniquenessTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniquenessTests.swift; sourceTree = "<group>"; };
+		FCF3CD991CAA96F300C8783E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		FCF3CD9B1CAA987E00C8783E /* Toilet+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Toilet+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FCF3CD9C1CAA987E00C8783E /* Toilet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toilet.swift; sourceTree = "<group>"; };
+		FCF4E7451CBFB331001DA93E /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC7EE2021CA15FB3006CFF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7EE2191CA15FB3006CFF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7EE2241CA15FB3006CFF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC7EE1FC1CA15FB3006CFF74 = {
+			isa = PBXGroup;
+			children = (
+				4FB32B4D1CC62FD9007EC952 /* stuttgartStadtmitte.gpx */,
+				FCF3CD9B1CAA987E00C8783E /* Toilet+CoreDataProperties.swift */,
+				FCF3CD9C1CAA987E00C8783E /* Toilet.swift */,
+				FC7EE2071CA15FB3006CFF74 /* need2pee */,
+				FC7EE21F1CA15FB3006CFF74 /* need2peeTests */,
+				FC7EE22A1CA15FB3006CFF74 /* need2peeUITests */,
+				FC7EE2061CA15FB3006CFF74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC7EE2061CA15FB3006CFF74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC7EE2051CA15FB3006CFF74 /* need2pee.app */,
+				FC7EE21C1CA15FB3006CFF74 /* need2peeTests.xctest */,
+				FC7EE2271CA15FB3006CFF74 /* need2peeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC7EE2071CA15FB3006CFF74 /* need2pee */ = {
+			isa = PBXGroup;
+			children = (
+				FCF4E7441CBFB29D001DA93E /* Controller */,
+				FCF4E7431CBFB291001DA93E /* View */,
+				FCF4E7421CBFB284001DA93E /* Model */,
+				FC3015A21CB3CBFB00AB4F67 /* toilets.json */,
+				FC7EE2081CA15FB3006CFF74 /* AppDelegate.swift */,
+				FC7EE2121CA15FB3006CFF74 /* Assets.xcassets */,
+				FC7EE2141CA15FB3006CFF74 /* LaunchScreen.storyboard */,
+				FC7EE2171CA15FB3006CFF74 /* Info.plist */,
+				FC7EE20F1CA15FB3006CFF74 /* need2pee.xcdatamodeld */,
+			);
+			path = need2pee;
+			sourceTree = "<group>";
+		};
+		FC7EE21F1CA15FB3006CFF74 /* need2peeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCCB06101CD34C3E008BAEF3 /* UniquenessTests.swift */,
+				FCCB060E1CD3482D008BAEF3 /* KeysSortedByValueTests.swift */,
+				FCCB060C1CD33B64008BAEF3 /* ComputeDistancesTests.swift */,
+				FC729C401CD0B0B1000E7E0A /* CoreDataTests.swift */,
+				FC7EE2221CA15FB3006CFF74 /* Info.plist */,
+			);
+			path = need2peeTests;
+			sourceTree = "<group>";
+		};
+		FC7EE22A1CA15FB3006CFF74 /* need2peeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC7EE22B1CA15FB3006CFF74 /* need2peeUITests.swift */,
+				FC7EE22D1CA15FB3006CFF74 /* Info.plist */,
+			);
+			path = need2peeUITests;
+			sourceTree = "<group>";
+		};
+		FCF4E7421CBFB284001DA93E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCF4E7451CBFB331001DA93E /* Model.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FCF4E7431CBFB291001DA93E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC7EE20C1CA15FB3006CFF74 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FCF4E7441CBFB29D001DA93E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				57C160DB1CB690DC00F542AD /* PopoverViewController.swift */,
+				FCF3CD991CAA96F300C8783E /* TableViewController.swift */,
+				FC7EE20A1CA15FB3006CFF74 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC7EE2041CA15FB3006CFF74 /* need2pee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7EE2301CA15FB3006CFF74 /* Build configuration list for PBXNativeTarget "need2pee" */;
+			buildPhases = (
+				FC7EE2011CA15FB3006CFF74 /* Sources */,
+				FC7EE2021CA15FB3006CFF74 /* Frameworks */,
+				FC7EE2031CA15FB3006CFF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = need2pee;
+			productName = need2pee;
+			productReference = FC7EE2051CA15FB3006CFF74 /* need2pee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC7EE21B1CA15FB3006CFF74 /* need2peeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7EE2331CA15FB3006CFF74 /* Build configuration list for PBXNativeTarget "need2peeTests" */;
+			buildPhases = (
+				FC7EE2181CA15FB3006CFF74 /* Sources */,
+				FC7EE2191CA15FB3006CFF74 /* Frameworks */,
+				FC7EE21A1CA15FB3006CFF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC7EE21E1CA15FB3006CFF74 /* PBXTargetDependency */,
+			);
+			name = need2peeTests;
+			productName = need2peeTests;
+			productReference = FC7EE21C1CA15FB3006CFF74 /* need2peeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC7EE2261CA15FB3006CFF74 /* need2peeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7EE2361CA15FB3006CFF74 /* Build configuration list for PBXNativeTarget "need2peeUITests" */;
+			buildPhases = (
+				FC7EE2231CA15FB3006CFF74 /* Sources */,
+				FC7EE2241CA15FB3006CFF74 /* Frameworks */,
+				FC7EE2251CA15FB3006CFF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC7EE2291CA15FB3006CFF74 /* PBXTargetDependency */,
+			);
+			name = need2peeUITests;
+			productName = need2peeUITests;
+			productReference = FC7EE2271CA15FB3006CFF74 /* need2peeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC7EE1FD1CA15FB3006CFF74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Schlaue Füchse";
+				TargetAttributes = {
+					FC7EE2041CA15FB3006CFF74 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = GGH4S9XP5X;
+					};
+					FC7EE21B1CA15FB3006CFF74 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FC7EE2041CA15FB3006CFF74;
+					};
+					FC7EE2261CA15FB3006CFF74 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FC7EE2041CA15FB3006CFF74;
+					};
+				};
+			};
+			buildConfigurationList = FC7EE2001CA15FB3006CFF74 /* Build configuration list for PBXProject "need2pee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC7EE1FC1CA15FB3006CFF74;
+			productRefGroup = FC7EE2061CA15FB3006CFF74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC7EE2041CA15FB3006CFF74 /* need2pee */,
+				FC7EE21B1CA15FB3006CFF74 /* need2peeTests */,
+				FC7EE2261CA15FB3006CFF74 /* need2peeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC7EE2031CA15FB3006CFF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7EE2161CA15FB3006CFF74 /* LaunchScreen.storyboard in Resources */,
+				FC7EE2131CA15FB3006CFF74 /* Assets.xcassets in Resources */,
+				FC3015A31CB3CBFB00AB4F67 /* toilets.json in Resources */,
+				4FB32B4E1CC62FD9007EC952 /* stuttgartStadtmitte.gpx in Resources */,
+				FC7EE20E1CA15FB3006CFF74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7EE21A1CA15FB3006CFF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7EE2251CA15FB3006CFF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC7EE2011CA15FB3006CFF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7EE2111CA15FB3006CFF74 /* need2pee.xcdatamodeld in Sources */,
+				FC7EE20B1CA15FB3006CFF74 /* ViewController.swift in Sources */,
+				57C160DC1CB690DC00F542AD /* PopoverViewController.swift in Sources */,
+				FCF3CD9E1CAA987E00C8783E /* Toilet.swift in Sources */,
+				FCF3CD9D1CAA987E00C8783E /* Toilet+CoreDataProperties.swift in Sources */,
+				FC7EE2091CA15FB3006CFF74 /* AppDelegate.swift in Sources */,
+				FCF3CD9A1CAA96F300C8783E /* TableViewController.swift in Sources */,
+				FCF4E7461CBFB331001DA93E /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7EE2181CA15FB3006CFF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCB060D1CD33B64008BAEF3 /* ComputeDistancesTests.swift in Sources */,
+				FC729C411CD0B0B1000E7E0A /* CoreDataTests.swift in Sources */,
+				FCCB060F1CD3482D008BAEF3 /* KeysSortedByValueTests.swift in Sources */,
+				FCCB06111CD34C3E008BAEF3 /* UniquenessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7EE2231CA15FB3006CFF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7EE22C1CA15FB3006CFF74 /* need2peeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC7EE21E1CA15FB3006CFF74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC7EE2041CA15FB3006CFF74 /* need2pee */;
+			targetProxy = FC7EE21D1CA15FB3006CFF74 /* PBXContainerItemProxy */;
+		};
+		FC7EE2291CA15FB3006CFF74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC7EE2041CA15FB3006CFF74 /* need2pee */;
+			targetProxy = FC7EE2281CA15FB3006CFF74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC7EE20C1CA15FB3006CFF74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7EE20D1CA15FB3006CFF74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC7EE2141CA15FB3006CFF74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7EE2151CA15FB3006CFF74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC7EE22E1CA15FB3006CFF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC7EE22F1CA15FB3006CFF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC7EE2311CA15FB3006CFF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = need2pee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schlauefuechse.need2pee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FC7EE2321CA15FB3006CFF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = need2pee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schlauefuechse.need2pee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FC7EE2341CA15FB3006CFF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = need2peeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schlauefuechse.need2peeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/need2pee.app/need2pee";
+			};
+			name = Debug;
+		};
+		FC7EE2351CA15FB3006CFF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = need2peeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schlauefuechse.need2peeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/need2pee.app/need2pee";
+			};
+			name = Release;
+		};
+		FC7EE2371CA15FB3006CFF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = need2peeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schlauefuechse.need2peeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = need2pee;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FC7EE2381CA15FB3006CFF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = need2peeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schlauefuechse.need2peeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = need2pee;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC7EE2001CA15FB3006CFF74 /* Build configuration list for PBXProject "need2pee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7EE22E1CA15FB3006CFF74 /* Debug */,
+				FC7EE22F1CA15FB3006CFF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC7EE2301CA15FB3006CFF74 /* Build configuration list for PBXNativeTarget "need2pee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7EE2311CA15FB3006CFF74 /* Debug */,
+				FC7EE2321CA15FB3006CFF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC7EE2331CA15FB3006CFF74 /* Build configuration list for PBXNativeTarget "need2peeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7EE2341CA15FB3006CFF74 /* Debug */,
+				FC7EE2351CA15FB3006CFF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC7EE2361CA15FB3006CFF74 /* Build configuration list for PBXNativeTarget "need2peeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7EE2371CA15FB3006CFF74 /* Debug */,
+				FC7EE2381CA15FB3006CFF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC7EE20F1CA15FB3006CFF74 /* need2pee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC7EE2101CA15FB3006CFF74 /* need2pee.xcdatamodel */,
+			);
+			currentVersion = FC7EE2101CA15FB3006CFF74 /* need2pee.xcdatamodel */;
+			path = need2pee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC7EE1FD1CA15FB3006CFF74 /* Project object */;
+}

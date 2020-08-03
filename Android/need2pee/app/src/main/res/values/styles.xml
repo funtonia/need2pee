@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--Color of the Toolbar and the StatusBar-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!--Color of the ActionBar in ActionMode-->
+        <item name="android:actionModeBackground">@color/colorPrimary</item>
+
+        <!--Color of activated switches-->
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>

@@ -1,0 +1,134 @@
+{
+    "toilets":[
+    {
+        "name": "Schlossplatz, U-Bahn",
+        "descr": "Su-Fr 8-22h, Sa 9-24h, 50 Cent",
+        "barrierFree": true,
+        "free": false,
+        "longitude": 9.180370,
+        "latitude": 48.777927
+    },
+    {
+        "name": "Arnulf-Klett-Passage",
+        "descr": "always opened, 30 Cent",
+        "barrierFree": true,
+        "free": false,
+        "longitude": 9.181068,
+        "latitude": 48.783214
+    },
+    {
+        "name": "Staatsgalerie/Planetarium",
+        "descr": "always opened, 30 Cent",
+        "barrierFree": true,
+        "free": false,
+        "longitude": 9.187098,
+        "latitude": 48.782602
+    },
+    
+    {
+        "name": "Charlottenplatz 10",
+        "descr": "always opened, 30 Cent",
+        "barrierFree": true,
+        "free": false,
+        "longitude": 9.184717,
+        "latitude": 48.774784
+    },
+    
+    {
+        "name": "Am Neckartor",
+        "descr": "always opened",
+        "barrierFree": true,
+        "free": true,
+        "longitude": 9.189996,
+        "latitude": 48.786050
+    },
+    {
+        "name": "Paulinenstraße 13/1",
+        "descr": "always opened",
+        "barrierFree": false,
+        "free": true,
+        "longitude": 9.173618,
+        "latitude": 48.770456
+    },
+    {
+        "name": "Rotebühlplatz(LBBW)",
+        "descr": "disabled only, Mo-Su 5-1 h",
+        "barrierFree": true,
+        "free": true,
+        "longitude": 9.190404,
+        "latitude": 48.774562
+    },
+    {
+        "name": "Kernerplatz",
+        "descr": "Mo-Su 5-1 h, 30 Cent",
+        "barrierFree": false,
+        "free": false,
+        "longitude": 9.170931,
+        "latitude": 48.783299
+    },
+    {
+        "name": "Königstraße 5",
+        "descr": "Mo-Su, 5-1 h, 30 Cent",
+        "barrierFree": false,
+        "free": false,
+        "longitude": 9.180484,
+        "latitude": 48.780181
+    },
+    {
+        "name": "Alte Kanzlei",
+        "descr": "Mo-Su 5-1 h, 30 Cent",
+        "barrierFree": false,
+        "free": false,
+        "longitude": 9.178348,
+        "latitude": 48.777406
+    },
+    {
+        "name": "Kronprinzstraße",
+        "descr": "Mo-Su 5-1 h, 30 Cent",
+        "barrierFree": false,
+        "free": false,
+        "longitude": 9.175408,
+        "latitude": 48.776473
+    },
+    {
+        "name": "Holzstr./Dorotheenstr.",
+        "descr": "Mo-Su 5-1 h, 30 Cent",
+        "barrierFree": false,
+        "free": false,
+        "longitude": 9.182124,
+        "latitude": 48.775539
+    },
+    {
+        "name": "Hirschstr./Nadlerstr.",
+        "descr": "Mo-Su 5-1 h, 30 Cent",
+        "barrierFree": false,
+        "free": false,
+        "longitude": 9.176695,
+        "latitude": 48.774639
+    },
+    {
+        "name": "Rotebühlplatz",
+        "descr": "Mo-Su 5-1 h, 30 Cent",
+        "barrierFree": false,
+        "free": false,
+        "longitude": 9.173391,
+        "latitude": 48.774336
+    },
+    {
+        "name": "Wilhelmsplatz",
+        "descr": "Mo-Su 5-1 h, 30 Cent",
+        "barrierFree": false,
+        "free": false,
+        "longitude": 9.178816,
+        "latitude": 48.771282
+    },
+    {
+        "name": "Paulinenbrücke",
+        "descr": "Mo-Su 5-1 h, 30 Cent",
+        "barrierFree": false,
+        "free": false,
+        "longitude": 9.173123,
+        "latitude": 48.770744
+    }
+    ]
+}

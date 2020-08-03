@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/freeCheck"
+            android:icon="@drawable/free"
+            android:title="Free"
+            android:checked="false"
+        />
+
+        <item
+            android:id="@+id/barrierFreeCheck"
+            android:icon="@drawable/barrierfree"
+            android:title="Barrierfree"
+            android:checked="false"/>
+
+    </group>
+    <item
+        android:id="@+id/applyItem"
+        android:title="Apply"
+        />
+</menu>

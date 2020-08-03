@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="Toilet" representedClassName=".Toilet" syncable="YES">
+        <attribute name="barrierFree" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="descr" optional="YES" attributeType="String" minValueString="0" maxValueString="30" syncable="YES"/>
+        <attribute name="free" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" attributeType="String" minValueString="1" maxValueString="25" syncable="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="name"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="Toilet" positionX="-63" positionY="-18" width="128" height="135"/>
+    </elements>
+</model>
